@@ -1,5 +1,6 @@
-(load-file "~/.emacs.d/cedet-1.1/common/cedet.el")
+(add-to-list 'load-path "~/.emacs.d/lisp/cedet-1.1/common")
 
+(require 'cedet)
 
 ;;; Code:
 (semantic-load-enable-code-helpers)
