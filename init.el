@@ -144,10 +144,16 @@
             (message "init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
+;;----------------------------------------------------------------------------
+;;ecb & cedet requirement
+;;----------------------------------------------------------------------------
 (require 'init-cedet)
 (require 'init-ecb)
 (require 'init-switchwindow)
 
+;; linum
+(global-linum-mode 1) ; always show line numbers
+(setq linum-format "%d| ")  ;set format
 
 (provide 'init)
 
