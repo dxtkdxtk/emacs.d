@@ -35,7 +35,7 @@
 (require-package 'diminish)
 (require-package 'scratch)
 (require-package 'mwe-log-commands)
-
+(require-package 'sml-mode)
 
 
 (require 'init-frame-hooks)
